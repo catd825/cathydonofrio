@@ -2,7 +2,7 @@
   "name": "personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://catd825.github.io/cathydonofrio",
+  "homepage": "http://catd825.github.io/home",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -44,4 +44,3 @@
     "gh-pages": "^3.1.0"
   }
 }
-
