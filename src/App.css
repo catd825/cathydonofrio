@@ -65,9 +65,9 @@
   display: flex;
 }
 
-td {
-  padding: 2em
-}
+
+
+
 
 .footer{
   margin-top: 1rem;
@@ -93,4 +93,38 @@ a:hover {
 
 a:active {
   color:black
+}
+
+table { 
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+  text-align: left; 
+}
+
+
+td {
+  padding: 2em;
+  text-align: left; 
+}
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+  }
+  
+  img {max-width:100%;}
+	
+	
+
 }

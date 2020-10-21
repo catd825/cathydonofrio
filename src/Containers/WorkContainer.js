@@ -25,7 +25,7 @@ class WorkContainer extends React.Component {
                                 <h5>feelingsOverflow</h5>
                                 Forum-based app in which users post, comment, and vote on mental health questions and concerns.
                                 <br/>
-                                <b><a href="https://j.gifs.com/L7oDK4.gif">Demo</a>|<a target="_blank" href="https://github.com/catd825/feelingsOverflow-front-end">Github</a></b>
+                                <b><a href="https://j.gifs.com/L7oDK4.gif">Demo</a> | <a target="_blank" href="https://github.com/catd825/feelingsOverflow-front-end">Github</a></b>
                             </td>
                         </tr>
                         <tr>
