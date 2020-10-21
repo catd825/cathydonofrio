@@ -5,7 +5,7 @@ import { SiRails } from "react-icons/si";
 class WorkContainer extends React.Component {
     render() {
         return (
-            <div className="container" id="work">
+            <div className="container" id="portfolio">
                 <h3>PROJECTS</h3>
                 <table>
                     <tbody>

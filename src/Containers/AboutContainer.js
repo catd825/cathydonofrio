@@ -14,7 +14,7 @@ class About extends React.Component {
             <div className="container" id="about">
                 {/* <img width="100px" src={require('../images/cathy.png')} /> */}
                 <br/>
-                <h3>ABOUT CATHY</h3>
+                <h3>ABOUT</h3>
                 <br/>
                     <p>Brooklyn-based full stack web developer experienced in all technologies below, including React.js and Ruby on Rails.</p> 
                     <br/>
