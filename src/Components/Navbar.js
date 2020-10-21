@@ -20,7 +20,7 @@ const Example = (props) => {
 
       <Navbar color="light" light expand="md" fixed="top" className="center-navbar">
         <div className="center-navbar">
-        <NavbarBrand href="/">CATHY D'ONOFRIO</NavbarBrand>
+        <NavbarBrand href="/">CATHY D'ONOFRIO | software engineer</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse  isOpen={isOpen} navbar >
           <Nav className="mr-auto" navbar className="center-navbar">
