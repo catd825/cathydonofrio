@@ -41,7 +41,7 @@
   }
 }
 
-.container {
+.container, #work {
   -moz-transform-origin: 50% 50%;
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -62,7 +62,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-  display: flex;
+  display: block;
 }
 
 .container, #about{
