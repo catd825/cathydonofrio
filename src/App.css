@@ -58,15 +58,17 @@
   background: #ffffff;
   border-radius: 4px;
   opacity: 0.90;
-  text-align: center;
+  /* text-align: center; */
   margin-left: auto;
   margin-right: auto;
   width: 65%;
-  display: flex;
+  display: block;
 }
 
-
-
+.container, #about{
+  display: block;
+  width: 50%
+}
 
 
 .footer{
@@ -125,6 +127,8 @@ only screen and (max-width: 760px),
   
   img {max-width:100%;}
 	
-	
+}
 
+.react-icons {
+  width: 80px;
 }

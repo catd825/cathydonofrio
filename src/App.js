@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer.js'
 import ContentContainer from './Containers/ContentContainer'
 import WorkContainer from './Containers/WorkContainer'
+import AboutContainer from './Containers/AboutContainer'
 import { Route, Switch } from 'react-router-dom'
 
 
@@ -15,6 +16,7 @@ class App extends React.Component {
         <br/><br/><br/>
             <Switch>
                 <Route path="/work" render={() => <WorkContainer />} />  
+                <Route path="/about" render={() => <AboutContainer />} /> 
                 <Route path="/" render={() => <ContentContainer />} />   
             </Switch>
         <Footer/>
