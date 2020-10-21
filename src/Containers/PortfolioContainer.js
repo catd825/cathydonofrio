@@ -34,7 +34,7 @@ class WorkContainer extends React.Component {
                                 <p><b>Technologies Used:</b>  &nbsp;&nbsp;
                                 <SiReact size={30}/>&nbsp;&nbsp;<SiRails size={30}/>
                                 </p>
-                                <b><a href="https://j.gifs.com/L7oDK4.gif" target="_blank" rel="noopener noreferrer">Demo</a> | <a target="_blank" rel="noopener noreferrer" href="https://github.com/catd825/feelingsOverflow-front-end">Github</a></b>
+                                <b><a href="https://youtu.be/FfzPzYYGqw0" target="_blank" rel="noopener noreferrer">Demo</a> | <a target="_blank" rel="noopener noreferrer" href="https://github.com/catd825/feelingsOverflow-front-end">Github</a></b>
                             </td>
                         </tr>
                         <tr>

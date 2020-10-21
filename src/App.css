@@ -69,6 +69,13 @@
   display: block;
   width: 50%
 }
+#home{
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+  display: block;
+  width: 50%;
+}
 
 
 .footer{
