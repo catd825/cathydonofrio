@@ -5,6 +5,8 @@ import { SiRuby } from "react-icons/si";
 import { SiRails } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
+import { NavLink } from "reactstrap"
+import { Link } from "react-router-dom"
 
 
 
@@ -39,7 +41,8 @@ class About extends React.Component {
                     <p>
                         Interested in a role where I can continue to build on my programming skills, as well as transfer my previous professional experience.  Please feel free to reach out via email or LinkedIn at the bottom of this page.
                     </p>
-                        
+                    <br/>
+                    <NavLink to="/home" tag={Link}>return to main</NavLink>        
             </div>
         )
     }
