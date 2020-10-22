@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   position: relative;
-  min-height: 400px;
+  min-height: 700px;
   margin-bottom: 100px;
   clear: both;
 }
@@ -70,8 +70,12 @@
   width: 50%
 }
 #home{
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  position:absolute;
+  bottom: 30px;
+  padding: 1.5em;
+  text-align: left;
   color:white;
   display: block;
   width: 50%;

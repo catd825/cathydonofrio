@@ -5,10 +5,10 @@ class ContentContainer extends React.Component {
         return(
             <>
             
-            {/* <div id="home">
-                <h3>CATHY D'ONOFRIO | software engineer</h3>
-                <p>Brooklyn-based full stack web developer experienced in all technologies below, including React.js and Ruby on Rails.</p> 
-            </div> */}
+            <div id="home">
+                <h2>CATHY D'ONOFRIO | software engineer</h2>
+                <p>brooklyn-based full stack web developer.</p> 
+            </div>
             </>
         )
     }
