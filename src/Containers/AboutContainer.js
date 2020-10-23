@@ -14,11 +14,11 @@ class About extends React.Component {
     render(){
         return(
             <div className="container" id="about">
-                {/* <img width="100px" src={require('../images/cathy.png')} /> */}
-                <br/>
                 <h3>ABOUT</h3>
-                <br/>
-                    <p>Brooklyn-based full stack web developer experienced in all technologies below, including React.js and Ruby on Rails.</p> 
+                <br/><br/>
+                <img width="200px" src={require('../images/cathy.png')} />
+                <br/><br/>
+                    <p>Cathy is a Brooklyn-based full stack web developer experienced in all technologies below, including React.js and Ruby on Rails.</p> 
                     <br/>
                     <p>
                         <SiReact size={30}/>
