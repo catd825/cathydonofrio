@@ -54,15 +54,19 @@
   -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
   -ms-transition: opacity 1s ease, -ms-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
-  padding: 1em 1em 1em 1em ;
+  padding: 3em 3em 3em 3em ;
   background: #ffffff;
   border-radius: 4px;
-  opacity: 0.90;
-  /* text-align: center; */
+  opacity: 0.95;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 75%;
   display: block;
+}
+
+.left {
+  text-align: left
 }
 
 
@@ -87,6 +91,10 @@
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.icon{
+  color:white
 }
 
 a:visited {
@@ -124,7 +132,7 @@ td {
 }
 
 .padding{
-  padding:1em
+  padding:3em
 }
 
 
