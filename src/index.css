@@ -6,6 +6,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  font-family: Georgia
 }
 
 @media only screen and (max-width: 767px) {
@@ -14,10 +15,10 @@ body {
   }
 }
 
-code {
+/* code {
   font-family: 'Georgia', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 .sticky-nav {
   position: fixed;
