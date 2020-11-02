@@ -8,13 +8,13 @@ import { Link } from "react-router-dom"
 class About extends React.Component {
     render(){
         return(
-            <div className="container" id="about" style={{width: "60%"}}>
+            <div className="container" id="about" style={{width: "75%"}}>
                 <h3>ABOUT</h3>
                 <br/>
-                <img width="150px" src={require('../images/cathy.png')} />
+                <img width="175px" src={require('../images/cathy.png')} />
                 <br/><br/>
                     <p className="left">
-                        Hi!  I'm Cathy.  I am a full stack web developer based in Brooklyn NY.  I'm experienced in the technologies listed below, primarily React.js and Ruby on Rails.
+                        Hi!  I'm Cathy.  I am a full stack web developer based in Brooklyn NY.  I'm experienced in React.js, Ruby on Rails, as well as all of the technologies below.
                     </p> 
                     
                     <p>
@@ -41,7 +41,7 @@ class About extends React.Component {
                     </p>
                     
                     <p className="left">
-                        I'm interested in a role where I can continue to build on my programming skills, as well as transfer my previous professional experience.  Please feel free to reach out via email or LinkedIn at the bottom of this page.
+                        I'm interested in a role where I can continue to build on my programming skills, as well as transfer my previous professional experience.  Please feel free to reach out via email or LinkedIn at the bottom of this page!
                     </p>
                     <br/>
                     <NavLink to="/home" tag={Link}>return to main</NavLink>        
