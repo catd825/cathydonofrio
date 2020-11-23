@@ -6,6 +6,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  font-size: 15px;
   /* font-family: Georgia */
 }
 
