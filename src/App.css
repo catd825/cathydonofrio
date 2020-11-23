@@ -1,7 +1,7 @@
 
 
 div {
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   color: #505050;
   font-size: 18px
 }
@@ -65,7 +65,7 @@ div {
   padding: 3em 3em 3em 3em ;
   background: #ffffff;
   border-radius: 4px;
-  opacity: 0.95;
+  /* opacity: 0.95; */
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -86,6 +86,11 @@ div {
   width: 50%;
   position: fixed;
   bottom: 75px;
+
+}
+
+h5{
+  font-weight: bold;
 
 }
 
@@ -120,26 +125,26 @@ a:active {
   color:black
 }
 
-table { 
+/* table { 
   width: 100%;
   border-collapse: collapse; 
-}
+} */
 
-th { 
+/* th { 
   background: #333; 
   color: white; 
   font-weight: bold; 
   text-align: left; 
-}
+} */
 
 
-td {
+/* td {
   padding: 2em;
   text-align: left; 
-}
+} */
 
 .padding{
-  padding:3em
+  padding:.5em
 }
 
 
