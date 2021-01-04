@@ -31,7 +31,7 @@ const Example = (props) => {
               <NavLink to="/projects" tag={Link}>projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1alTPcDWw-x98fs4dIYg19YekKp1Iu0bW/view?usp=sharing">resume</NavLink>
+              <NavLink target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1tTrZUTWODHM69_3TRsHiMrEf_5ALAvlt/view?usp=sharing">resume</NavLink>
             </NavItem> 
           </Nav>
         </Collapse>

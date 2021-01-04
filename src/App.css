@@ -3,7 +3,7 @@
 div {
   /* font-family: 'Raleway', sans-serif; */
   color: #505050;
-  font-size: 18px
+  font-size: 16px
 }
 
 .App {
@@ -125,23 +125,6 @@ a:active {
   color:black
 }
 
-/* table { 
-  width: 100%;
-  border-collapse: collapse; 
-} */
-
-/* th { 
-  background: #333; 
-  color: white; 
-  font-weight: bold; 
-  text-align: left; 
-} */
-
-
-/* td {
-  padding: 2em;
-  text-align: left; 
-} */
 
 .padding{
   padding:.5em
@@ -169,4 +152,12 @@ only screen and (max-width: 760px),
   text-align: center;
   justify-content: center;
   width: 100%
+}
+
+.left-div {
+  flex: 0 0 65%;
+}
+
+.right-div {
+  flex: 1;
 }
