@@ -1,6 +1,6 @@
 import React from 'react'
 import { SiReact, SiJavascript, SiRuby, SiRails, SiNodeDotJs, SiMongodb, SiRedux} from "react-icons/si";
-import { NavLink, Button } from "reactstrap"
+import { Button } from "reactstrap"
 import { Link } from "react-router-dom"
 
 

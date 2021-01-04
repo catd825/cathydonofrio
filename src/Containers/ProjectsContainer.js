@@ -1,7 +1,7 @@
 import React from 'react'
 import {
     Card, CardImg, CardText, CardBody, CardGroup,
-    CardTitle, NavLink
+    CardTitle, Button
   } from 'reactstrap';
 import { Link } from 'react-router-dom'
 
@@ -62,7 +62,7 @@ class WorkContainer extends React.Component {
                         </Card>
                     </CardGroup>
                     <br/>
-                    <NavLink to="/home" tag={Link}>return to main</NavLink>
+                    <Button style={{ color: 'white' }} to="/home" tag={Link}>return to main</Button>
                 </div>
             </div>
           );
