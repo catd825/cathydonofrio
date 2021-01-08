@@ -13,6 +13,10 @@ class WorkContainer extends React.Component {
         return (
             <div className="container" id="portfolio">
                 <h3>PROJECTS</h3>
+                <br/>
+                <p className="left">
+                    Featured projects from Flatiron are below.  All projects are available on <b><a target="_blank" rel="noopener noreferrer" href="https://github.com/catd825/">Github</a>.</b>
+                </p>
                 <div>
                     <CardGroup>
                         <Card className="padding">
