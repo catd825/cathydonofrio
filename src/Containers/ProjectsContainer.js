@@ -3,12 +3,25 @@ import {
     Card, CardImg, CardText, CardBody, CardGroup,
     CardTitle, Button
   } from 'reactstrap';
-import { Link } from 'react-router-dom'
-
+import { Link, withRouter } from 'react-router-dom'
 import { SiReact } from "react-icons/si";
 import { SiRails } from "react-icons/si";
 
 class WorkContainer extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = this.props.location.state || {activeScreen: "PROJECTS"}; // In the ||, set default state.
+        this.props.history.replace(this.props.location.pathname, this.state); // Update state of current entry in history stack.
+      }
+
+      componentDidUpdate(prevProps, prevState, snapshot) {
+        // If Route has changed, update state (Ensures consistency between location state and Component state).
+        if (this.props.location !== prevProps.location) {
+          this.setState(this.props.location.state);
+        }
+    }
+
     render(){
         return (
             <div className="container" id="portfolio">
@@ -74,4 +87,4 @@ class WorkContainer extends React.Component {
     
 }
 
-export default WorkContainer
+export default withRouter(WorkContainer)
