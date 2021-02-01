@@ -5,7 +5,7 @@ import Footer from './Components/Footer.js'
 import ContentContainer from './Containers/ContentContainer'
 import ProjectsContainer from './Containers/ProjectsContainer'
 import AboutContainer from './Containers/AboutContainer'
-import { Route, Switch, Redirect } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 
 class App extends React.Component {
@@ -18,7 +18,6 @@ class App extends React.Component {
                 <Route path="/projects" render={() => <ProjectsContainer />} />  
                 <Route path="/about" render={() => <AboutContainer />} /> 
                 <Route path="/" render={() => <ContentContainer />} />
-                {/* <Redirect to="/" />    */}
             </Switch>
         <Footer/>
       </div>
