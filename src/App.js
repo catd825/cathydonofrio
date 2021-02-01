@@ -15,8 +15,8 @@ class App extends React.Component {
         <Navbar />
         <br/><br/><br/><br/><br/>
             <Switch>
-                <Route path="/Projects" render={() => <ProjectsContainer />} />  
-                <Route path="/about" render={() => <AboutContainer />} /> 
+                <Route path="/projects" render={() => <ProjectsContainer />} />  
+                <Route path="/#/about" render={() => <AboutContainer />} /> 
                 <Route path="/" render={() => <ContentContainer />} />
                 <Redirect to="/" />   
             </Switch>
