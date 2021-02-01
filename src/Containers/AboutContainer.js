@@ -1,12 +1,26 @@
 import React from 'react'
 import { SiReact, SiJavascript, SiRuby, SiRails, SiNodeDotJs, SiMongodb, SiRedux} from "react-icons/si";
 import { Button } from "reactstrap"
-import { Link } from "react-router-dom"
+import { Link, withRouter } from "react-router-dom"
 
 
 
 class About extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = this.props.location.state || {activeScreen: "ABOUT"}; // In the ||, set default state.
+        this.props.history.replace(this.props.location.pathname, this.state); // Update state of current entry in history stack.
+      }
+
+      componentDidUpdate(prevProps, prevState, snapshot) {
+        // If Route has changed, update state (Ensures consistency between location state and Component state).
+        if (this.props.location !== prevProps.location) {
+          this.setState(this.props.location.state);
+        }
+    }
+
     render(){
+        console.log("state", this.props.location.state)
         return(
             <div className="container" id="about" style={{width: "75%"}}>
                 <h3>ABOUT CATHY</h3>
@@ -31,42 +45,10 @@ class About extends React.Component {
                     </p>  
         
                     <br/>
-                    
-                    {/* <p className="left"> Proficient In: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="http://www.reactjs.org" target="_blank" rel="noopener noreferrer"><SiReact className="icon" size={30}/></a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
-                        <a href="http://www.javascript.com" target="_blank" rel="noopener noreferrer"><SiJavascript className="icon" size={30}/></a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                        <a href="https://ruby-lang.org/en" target="_blank" rel="noopener noreferrer"><SiRuby className="icon" size={30}/></a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
-                        <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer"><SiRails className="icon" size={30}/></a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
-                        <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"><SiPostgresql className="icon" size={30}/></a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
-                        <br/><br/>
-
-                        Currently Learning: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="http://nodejs.org" target="_blank" rel="noopener noreferrer"><SiNodeDotJs className="icon" size={30}/></a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                        <a href="http://mongodb.com" target="_blank" rel="noopener noreferrer"><SiMongodb className="icon" size={30}/></a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                        <a href="http://redux.js.org" target="_blank" rel="noopener noreferrer"><SiRedux className="icon" size={30}/></a>
-
-                    </p> */}
-
-
-                    <br/>
                     <Button style={{ color: 'white' }} to="/home" tag={Link}>return to main</Button>        
             </div>
         )
     }
 }
 
-export default About
+export default withRouter(About)
