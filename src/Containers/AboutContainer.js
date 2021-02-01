@@ -19,23 +19,20 @@ class About extends React.Component {
                     </p>
 
                     <p className="left">
-                        Before I switched to tech, I spend over nine years working in financial roles within the advertising industry.  I have experience managing revenue, forecasting, contract negotiation, resource, and budget management.
+                        Before Flatiron, I worked in a wide array of roles, primarily financial roles within advertising agencies, as well as data collection at a market research agency.  Agency experience strengthened my collaborative skills and ability to work in a fast paced environment.  
                     </p>
 
                     <p className="left">
-                        Having agency experience requires me to thrive in a fast paced environment, as well as have the ability to work across different departments.  I worked with client-facing account and project management teams to monitor the financial health of their accounts, which required close tracking of resources.  
-                    </p>
-                        
-                        
-                    <p className="left">I've also worked with department heads across the agency to develop and monitor their operating budgets for the year.  At every agency, I worked closely with the accounting team to prepare month end reconciliations and accruals.  
-                    </p>
+                        Learning to code was always a goal of mine.  My interest in front-end development started back in high school when I built websites with HTML and CSS for fun.  When I went on to work in financial and market research roles after college, both of which required me to work with tons of data to build reports. Looking back, that fueled my love for backend development.
+                    </p>     
 
                     <p className="left">
-                        I'm interested in a role where I can transfer my ability to collaborate with others and work in a fast paced environment, preferably one that also allows me to put my financial skills to work.  
-                    </p>         
+                        In 2020, I finally decided to make the leap into full-stack development.  At Flatiron, we learned object-oriented programming, SQL, ORM, ActiveRecord, MVC pattern (<b>Ruby on Rails</b>), <b>JavaScript</b> fundamentals and front-end frameworks (<b>ReactJS</b>).  After graduating bootcamp, I've had fun exploring new frameworks and databases, most recently <b>Node, Express, and Mongo</b>.  I've also begun to explore <b>Redux</b> and <b>OAuth</b> flows, including the <b><a href="https://medium.com/javascript-in-plain-english/creating-a-financial-app-with-the-plaid-api-nodejs-express-and-react-4e142066eb6c?source=friends_link&sk=ae4a53090618e6c9073f6bbb968ae18b">Plaid API auth flow</a></b>.  I'm interested in a role where I can use these skills and continue to learn more!
+                    </p>  
         
                     <br/>
-                    <p className="left"> Proficient In: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    {/* <p className="left"> Proficient In: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="http://www.reactjs.org" target="_blank" rel="noopener noreferrer"><SiReact className="icon" size={30}/></a>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         
@@ -48,8 +45,8 @@ class About extends React.Component {
                         <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer"><SiRails className="icon" size={30}/></a>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         
-                        {/* <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"><SiPostgresql className="icon" size={30}/></a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
+                        <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"><SiPostgresql className="icon" size={30}/></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         
                         <br/><br/>
 
@@ -62,7 +59,7 @@ class About extends React.Component {
 
                         <a href="http://redux.js.org" target="_blank" rel="noopener noreferrer"><SiRedux className="icon" size={30}/></a>
 
-                    </p>
+                    </p> */}
 
 
                     <br/>
