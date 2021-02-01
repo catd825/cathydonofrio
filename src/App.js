@@ -18,7 +18,7 @@ class App extends React.Component {
                 <Route path="/projects" render={() => <ProjectsContainer />} />  
                 <Route path="/about" render={() => <AboutContainer />} /> 
                 <Route path="/" render={() => <ContentContainer />} />
-                <Redirect to="/" />   
+                {/* <Redirect to="/" />    */}
             </Switch>
         <Footer/>
       </div>
