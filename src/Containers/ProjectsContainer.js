@@ -24,6 +24,7 @@ class WorkContainer extends React.Component {
 
     render(){
         return (
+            <>
             <div className="container" id="portfolio">
                 <h3>PROJECTS</h3>
                 <br/>
@@ -82,6 +83,8 @@ class WorkContainer extends React.Component {
                     <Button style={{ color: 'white' }} to="/home" tag={Link}>return to main</Button>
                 </div>
             </div>
+            <br/><br/><br/><br/>
+            </>
           );
     }
     

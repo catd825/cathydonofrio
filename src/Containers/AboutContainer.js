@@ -22,6 +22,7 @@ class About extends React.Component {
     render(){
         console.log("state", this.props.location.state)
         return(
+            <>
             <div className="container" id="about" style={{width: "75%"}}>
                 <h3>ABOUT CATHY</h3>
                 <br/>
@@ -47,6 +48,8 @@ class About extends React.Component {
                     <br/>
                     <Button style={{ color: 'white' }} to="/home" tag={Link}>return to main</Button>        
             </div>
+            <br/><br/><br/><br/>
+            </>
         )
     }
 }
