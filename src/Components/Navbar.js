@@ -24,8 +24,9 @@ const Example = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse  isOpen={isOpen} navbar >
           <Nav className="mr-auto" navbar className="center-navbar">
+
             <NavItem>
-            <NavLink to="/about" tag={Link}>about</NavLink>
+              <NavLink to="/about" tag={Link}>about</NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/projects" tag={Link}>projects</NavLink>

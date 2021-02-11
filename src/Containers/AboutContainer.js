@@ -1,5 +1,4 @@
 import React from 'react'
-import { SiReact, SiJavascript, SiRuby, SiRails, SiNodeDotJs, SiMongodb, SiRedux} from "react-icons/si";
 import { Button } from "reactstrap"
 import { Link, withRouter } from "react-router-dom"
 

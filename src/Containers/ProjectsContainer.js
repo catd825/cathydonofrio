@@ -7,7 +7,7 @@ import { Link, withRouter } from 'react-router-dom'
 import { SiReact } from "react-icons/si";
 import { SiRails } from "react-icons/si";
 
-class WorkContainer extends React.Component {
+class ProjectsContainer extends React.Component {
 
     constructor(props) {
         super(props);
@@ -90,4 +90,4 @@ class WorkContainer extends React.Component {
     
 }
 
-export default withRouter(WorkContainer)
+export default withRouter(ProjectsContainer)
