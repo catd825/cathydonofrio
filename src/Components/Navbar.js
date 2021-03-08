@@ -32,7 +32,7 @@ const Example = (props) => {
               <NavLink to="/projects" tag={Link}>projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1yWHIyWRMwXsiohZobMjD-1rGWnP08A5A/view?usp=sharing">resumé</NavLink>
+              <NavLink target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1EBMrLIztzVdz2Dz_z-v8za1owINBu7PF/view?usp=sharing">resumé</NavLink>
             </NavItem> 
           </Nav>
         </Collapse>
