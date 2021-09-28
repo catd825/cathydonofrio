@@ -1,25 +1,34 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { PageContext } from "../App";
 
-export const NewNavbar = (props: {
-  setPage: (page: string) => void;
+interface Props {
   page: string;
-}) => {
+  setPage: (page: string) => void;
+}
 
-  const value = React.useContext(PageContext);
-  console.log(props, value)
+export const NewNavbar: React.FC<Props> = (props: Props) => {
+  const { page, setPage } = props;
 
   const NavbarDiv = styled.div({
     backgroundColor: "white",
     height: "40px",
-    alignItems: "center",
+    margin: "auto"
+  });
+
+  const SpanWrapper = styled.div({
+    textAlign: "center",
+  });
+  const NavSpan = styled.span({
+    padding: "10px",
   });
 
   return (
     <NavbarDiv>
-      <p onClick={() => props.setPage('default')} >home</p>
-      <p onClick={() => props.setPage('about')} >about</p>
+      <SpanWrapper>
+        <NavSpan onClick={() => setPage("default")}>home</NavSpan>
+        <NavSpan onClick={() => setPage("about")}>about</NavSpan>
+        <NavSpan onClick={() => setPage("projects")}>projects</NavSpan>
+      </SpanWrapper>
     </NavbarDiv>
   );
 };
