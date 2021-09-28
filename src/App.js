@@ -1,31 +1,28 @@
-import React from 'react';
-import './App.css';
-import Navbar from './Components/Navbar'
-import Footer from './Components/Footer.js'
-import ContentContainer from './Containers/ContentContainer'
-import ProjectsContainer from './Containers/ProjectsContainer'
-import AboutContainer from './Containers/AboutContainer'
-import { Route, Switch } from 'react-router-dom'
+import React, { useState } from "react";
+import "./App.css";
+import AboutContainer from "./Containers/AboutContainer.js";
+import Footer from "./Components/Footer.js";
+import NewNavbar from "./Components/NewNavbar.tsx";
+
+export const PageContext = React.createContext();
+
+const App = () => {
+  const [page, setPage] = useState("default");
 
 
-class App extends React.Component {
-
-  state = { data: null }
-
-  render() { 
-    return (
-      <div className="App">
-        <Navbar />
-        <br/><br/><br/><br/><br/>
-            <Switch>
-                <Route path="/projects" render={() => <ProjectsContainer />} />  
-                <Route path="/about" render={() => <AboutContainer />} /> 
-                <Route path="/" render={() => <ContentContainer />} />
-            </Switch>
-        <Footer/>
-      </div>
-    )
-  }
-}
+  if (page === 'default') return (
+    <PageContext.Provider value={"default"}>
+      <NewNavbar setPage={setPage} page={page} />
+      <Footer />
+    </PageContext.Provider>
+  )
+  if (page === 'about') return (
+    <PageContext.Provider value={"default"}>
+      <NewNavbar setPage={setPage} page={page} />
+      <AboutContainer />
+      <Footer />
+    </PageContext.Provider>
+  )
+};
 
 export default App;
