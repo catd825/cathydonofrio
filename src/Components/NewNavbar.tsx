@@ -11,15 +11,16 @@ export const NewNavbar: React.FC<Props> = (props: Props) => {
 
   const NavbarDiv = styled.div({
     backgroundColor: "white",
-    height: "40px",
+    height: "50px",
     margin: "auto"
   });
 
   const SpanWrapper = styled.div({
     textAlign: "center",
+    paddingTop: "10px"
   });
   const NavSpan = styled.span({
-    padding: "10px",
+    padding: "10px"
   });
 
   return (
