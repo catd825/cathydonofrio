@@ -28,8 +28,8 @@ const About = () => {
           development started back in high school when I built websites with
           HTML and CSS for fun. When I went on to work in financial and market
           research roles after college, both of which required me to work with
-          tons of data to build reports. Looking back, that fueled my love for
-          backend development.
+          tons of data to build reports. In hindsight, that fueled an interest
+          in databases and backend development.
         </p>
 
         <p className="left">
