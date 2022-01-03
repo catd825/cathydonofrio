@@ -8,7 +8,7 @@ import {
   CardTitle,
   Button
 } from "reactstrap";
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { SiReact } from "react-icons/si";
 import { SiRails } from "react-icons/si";
 

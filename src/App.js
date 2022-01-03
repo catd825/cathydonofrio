@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import ProjectsContainer from "./Containers/ProjectsContainer.js";
-import AboutContainer from "./Containers/AboutContainer.js";
-import ContentContainer from "./Containers/ContentContainer.js";
+import ProjectsContainer from "./Containers/ProjectsContainer";
+import AboutContainer from "./Containers/AboutContainer";
+import ContentContainer from "./Containers/ContentContainer";
 import NewFooter from "./Components/NewFooter.tsx";
 import NewNavbar from "./Components/NewNavbar.tsx";
 import styled from "@emotion/styled";
@@ -16,9 +16,9 @@ const App = () => {
 
   let content;
   if (page === "about") {
-    content = <AboutContainer />;
+    content = <AboutContainer setPage={setPage} page={page}/>;
   } else if (page === "projects") {
-    content = <ProjectsContainer />;
+    content = <ProjectsContainer setPage={setPage} page={page}/>;
   } else {
     content = <ContentContainer />;
   }

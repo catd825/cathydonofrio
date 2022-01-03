@@ -7,7 +7,7 @@ interface Props {
 }
 
 export const NewNavbar: React.FC<Props> = (props: Props) => {
-  const { page, setPage } = props;
+  const { setPage } = props;
 
   const NavbarDiv = styled.div({
     backgroundColor: "white",
