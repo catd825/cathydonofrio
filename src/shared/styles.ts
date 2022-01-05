@@ -8,6 +8,7 @@ export const Wrapper = styled.div({
   width: "75%",
   margin: "50px auto 100px auto",
   backgroundColor: "white",
+  padding: '15px',
   "@media (min-width: 576px)": { padding: "40px" }
 });
 
