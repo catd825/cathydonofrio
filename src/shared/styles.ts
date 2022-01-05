@@ -9,7 +9,7 @@ export const Wrapper = styled.div({
   margin: "50px auto 100px auto",
   backgroundColor: "white",
   padding: '15px',
-  "@media (min-width: 576px)": { padding: "40px" }
+  "@media (min-width: 541px)": { padding: "40px" }
 });
 
 export const CardGroup = styled.div({
@@ -100,7 +100,7 @@ export const HomeStyle = styled.div({
 });
 
 export const AboutImage = styled.img({
-  "@media (min-width: 576px)": {
+  "@media (min-width: 541px)": {
     float: "left",
     height: "500px",
     padding: "0px 20px 20px 0px"
