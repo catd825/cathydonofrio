@@ -13,9 +13,7 @@ div {
   text-align: center;
   position: relative;
   min-height: 700px;
-  /* margin-bottom: 100px; */
   clear: both;
-  /* background-color: #6e7070; */
   margin-top: auto;
   margin-bottom: auto
 }
@@ -69,7 +67,7 @@ div {
   -ms-transition: opacity 1s ease, -ms-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
   padding: 3em 3em 3em 3em ;
-  background: #ffffff;
+  /* background: #ffffff; */
   border-radius: 4px;
   /* opacity: 0.95; */
   text-align: center;
