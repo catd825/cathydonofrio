@@ -4,7 +4,7 @@ import {
   CardTitle,
   AlignLeftDiv,
   Wrapper,
-  CardImg
+  AboutImage
 } from "../shared/styles";
 import { IPageProps } from "../shared/interfaces";
 
@@ -14,13 +14,7 @@ const About = (props: IPageProps) => {
     <>
       <Wrapper style={{ overflow: "hidden" }}>
         <CardTitle>ABOUT CATHY</CardTitle>
-        <div style={{ float: "left" }}>
-          <CardImg
-            alt="cathy"
-            style={{ height: "500px", padding: "0px 20px 20px 0px" }}
-            src={require("../images/cathy.jpeg")}
-          />
-        </div>
+        <AboutImage alt="cathy" src={require("../images/cathy.jpeg")} />
         <AlignLeftDiv style={{ overflow: "hidden" }}>
           Hello! I'm Cathy D'Onofrio, full stack software engineer based in
           Brooklyn, NY. Passionate about mission-driven companies, I proudly

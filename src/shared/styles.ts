@@ -8,7 +8,7 @@ export const Wrapper = styled.div({
   width: "75%",
   margin: "50px auto 100px auto",
   backgroundColor: "white",
-  padding: "40px"
+  "@media (min-width: 576px)": { padding: "40px" }
 });
 
 export const CardGroup = styled.div({
@@ -74,7 +74,7 @@ export const Button = styled.a({
   "&:hover": {
     textDecoration: "none",
     color: "white",
-    backgroundColor: 'grey'
+    backgroundColor: "grey"
   }
 });
 
@@ -84,16 +84,24 @@ export const CardLink = styled.a({
   wordWrap: "break-word",
   "&:hover": {
     textDecoration: "none",
-    color: "black",
+    color: "black"
   }
 });
 
 export const HomeStyle = styled.div({
-  paddingLeft: '15px',
-  textAlign: 'left',
-  color: 'white',
-  display: 'block',
-  width: '50%',
-  position: 'fixed',
-  bottom: '75px'
-})
+  paddingLeft: "15px",
+  textAlign: "left",
+  color: "white",
+  display: "block",
+  width: "50%",
+  position: "fixed",
+  bottom: "75px"
+});
+
+export const AboutImage = styled.img({
+  "@media (min-width: 576px)": {
+    float: "left",
+    height: "500px",
+    padding: "0px 20px 20px 0px"
+  }
+});
