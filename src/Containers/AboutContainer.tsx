@@ -1,14 +1,27 @@
 import React from "react";
-import { Button, CardTitle, AlignLeftDiv, Wrapper } from "../shared/styles";
+import {
+  Button,
+  CardTitle,
+  AlignLeftDiv,
+  Wrapper,
+  CardImg
+} from "../shared/styles";
 import { IPageProps } from "../shared/interfaces";
 
 const About = (props: IPageProps) => {
   const { setPage } = props;
   return (
     <>
-      <Wrapper>
+      <Wrapper style={{ overflow: "hidden" }}>
         <CardTitle>ABOUT CATHY</CardTitle>
-        <AlignLeftDiv>
+        <div style={{ float: "left" }}>
+          <CardImg
+            alt="cathy"
+            style={{ height: "500px", padding: "0px 20px 20px 0px" }}
+            src={require("../images/cathy.jpeg")}
+          />
+        </div>
+        <AlignLeftDiv style={{ overflow: "hidden" }}>
           Hello! I'm Cathy D'Onofrio, full stack software engineer based in
           Brooklyn, NY. Passionate about mission-driven companies, I proudly
           work at insurtech startup{" "}
@@ -43,8 +56,8 @@ const About = (props: IPageProps) => {
           Learning to code was always a goal of mine. Having loved HTML and CSS
           in high school, I began to learn JavaScript and Ruby through
           Codecademy and Flatiron prework. In early 2020, I made the big
-          decision to leave my steady career and begin a newer, more exciting one with
-          tons of opportunity.
+          decision to leave my steady career and begin a newer, more exciting
+          one with tons of opportunity.
         </AlignLeftDiv>
 
         <AlignLeftDiv>
