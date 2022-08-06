@@ -22,7 +22,7 @@ const ProjectsContainer = (props: IPageProps) => {
         <h3>PROJECTS</h3>
         <br />
         <p className="left">
-          Featured projects from Flatiron are below. All projects are available
+          Featured projects from my time at the Flatiron School are below. All projects are available
           on{" "}
           <b>
             <a
