@@ -1,12 +1,11 @@
 import React from "react";
-import { IPageProps } from "../shared/interfaces";
 import { HomeStyle } from "../shared/styles";
 
-const ContentContainer = (props: IPageProps) => {
+const ContentContainer = () => {
   return (
     <HomeStyle>
-      <h2>CATHY D'ONOFRIO</h2>
-      <p>software engineer based in brooklyn, new york.</p>
+      <h1>CATHY D'ONOFRIO</h1>
+      <h3>software engineer based in brooklyn, new york.</h3>
     </HomeStyle>
   );
 };

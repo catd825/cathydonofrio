@@ -9,7 +9,9 @@ import styled from "@emotion/styled";
 
 const App = () => {
   const PageWrapper = styled.div({
-    height: "50%"
+    height: "50%",
+    paddingTop: '40px',
+    marginLeft: -10
   });
 
   const [page, setPage] = useState("default");

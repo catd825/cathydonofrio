@@ -12,7 +12,13 @@ export const NewNavbar: React.FC<Props> = (props: Props) => {
   const NavbarDiv = styled.div({
     backgroundColor: "white",
     height: "50px",
-    margin: "auto"
+    margin: "auto",
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100%",
+    textAlign: "center"
+    
   });
 
   const SpanWrapper = styled.div({
@@ -20,7 +26,8 @@ export const NewNavbar: React.FC<Props> = (props: Props) => {
     paddingTop: "10px"
   });
   const NavSpan = styled.span({
-    padding: "10px"
+    padding: "10px",
+    cursor: "pointer"
   });
 
   return (

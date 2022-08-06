@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -102,7 +103,6 @@ h5{
 .footer{
   margin-top: 1rem;
   padding: 1rem; 
-  /* was 1rem */
   background-color: white;
   position: fixed;
   bottom: 0;

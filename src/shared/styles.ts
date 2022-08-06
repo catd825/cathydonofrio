@@ -8,7 +8,7 @@ export const Wrapper = styled.div({
   width: "75%",
   margin: "50px auto 100px auto",
   backgroundColor: "white",
-  padding: '15px',
+  padding: "15px",
   "@media (min-width: 541px)": { padding: "40px" }
 });
 
@@ -90,13 +90,12 @@ export const CardLink = styled.a({
 });
 
 export const HomeStyle = styled.div({
-  paddingLeft: "15px",
-  textAlign: "left",
+  textAlign: "center",
   color: "white",
   display: "block",
-  width: "50%",
+  width: "100%",
   position: "fixed",
-  bottom: "75px"
+  paddingTop: '200px'
 });
 
 export const AboutImage = styled.img({
